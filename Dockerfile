@@ -4,7 +4,7 @@ FROM ubuntu:16.04
 
 MAINTAINER george@automationlogic.com
 
-ENV TOWER_VERSION=latest
+ENV TOWER_VERSION=3.3.1-1
 ENV PACKAGENAME=ansible-tower-setup-${TOWER_VERSION}
 
 # Install tower
