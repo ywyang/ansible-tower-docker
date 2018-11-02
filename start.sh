@@ -12,6 +12,6 @@ docker run -d \
 	-v "$SCRIPTPATH/license.txt":/etc/tower/license \
 	-v tower_certs:/certs \
 	-v tower_db:/var/lib/postgresql \
-	ansible-tower:3.1.1
+	ansible-tower:3.3.1
 
 docker logs -f tower
