@@ -1,2 +1,2 @@
 #!/bin/bash
-docker build -t ansible-tower:3.1.1 .
+docker build -t ansible-tower:3.3.1 .
