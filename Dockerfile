@@ -16,7 +16,8 @@ RUN apt-get update && \
 		locales \
 		nano \
 		software-properties-common \
-		sudo 
+		sudo \
+		apt-transport-https
 
 RUN apt-add-repository ppa:ansible/ansible &&\
 	mkdir -p /tmp/towersetup &&\
