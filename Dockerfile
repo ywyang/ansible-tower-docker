@@ -58,7 +58,6 @@ RUN echo deleteme > /firstboot.flg
 RUN apt install -y python-pip &&\
 	pip install ansible-tower-cli &&\
 	tower-cli config host localhost  &&\
-	tower-cli config username admin  &&\
-	tower-cli config password cloud5cloud!
+	tower-cli config username admin 
 
 ENV TOWER_INIT_SCM_URL not_set
